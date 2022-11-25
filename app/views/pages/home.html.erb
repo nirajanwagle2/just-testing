@@ -1,2 +1,16 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+  <%= render "shared/banner" %>
+
+  <!-- inside app/views/home/index.html.erb -->
+<h1>Welcome, this is the home page</h1>
+
+<button type="button"
+        class="btn btn-lg btn-danger"
+        data-bs-toggle="popover"
+        title="Popover title"
+        data-bs-content="Amazing content, right ?">
+        Click to toggle popover
+</button>
+
+
+</div>
